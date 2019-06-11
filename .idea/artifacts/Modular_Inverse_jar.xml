@@ -1,10 +1,7 @@
 <component name="ArtifactManager">
-  <artifact type="jar" name="Modular_Inverse:jar">
+  <artifact type="jar" build-on-make="true" name="Modular_Inverse:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/Modular_Inverse_jar</output-path>
     <root id="archive" name="Modular_Inverse.jar">
-      <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
-      </element>
       <element id="module-output" name="Modular_Inverse" />
     </root>
   </artifact>
